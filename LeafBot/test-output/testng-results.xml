@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22601" started-at="2019-11-17T05:55:24Z" finished-at="2019-11-17T05:55:46Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC002_InvoiceNumber@14523f8]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="22601" started-at="2019-11-17T05:55:24Z" finished-at="2019-11-17T05:55:46Z">
+      <class name="com.leafBot.testcases.TC002_InvoiceNumber">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.TC002_InvoiceNumber@14523f8]" name="startReport" is-config="true" duration-ms="1030" started-at="2019-11-17T05:55:23Z" finished-at="2019-11-17T05:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC002_InvoiceNumber@14523f8]" name="setData" is-config="true" duration-ms="0" started-at="2019-11-17T05:55:24Z" finished-at="2019-11-17T05:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC002_InvoiceNumber@14523f8]" name="setUpClass" is-config="true" duration-ms="312" started-at="2019-11-17T05:55:24Z" finished-at="2019-11-17T05:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC002_InvoiceNumber@14523f8]" name="report" is-config="true" duration-ms="15" started-at="2019-11-17T05:55:24Z" finished-at="2019-11-17T05:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC002_InvoiceNumber@14523f8]" name="beforeMethod" is-config="true" duration-ms="8216" started-at="2019-11-17T05:55:25Z" finished-at="2019-11-17T05:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runTC002(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.leafBot.testcases.TC002_InvoiceNumber@14523f8]" name="runTC002" duration-ms="10178" started-at="2019-11-17T05:55:34Z" data-provider="fetchData" finished-at="2019-11-17T05:55:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.testleaf@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leaf@12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DE763212]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTC002 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC002_InvoiceNumber@14523f8]" name="afterMethod" is-config="true" duration-ms="2448" started-at="2019-11-17T05:55:44Z" finished-at="2019-11-17T05:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC002_InvoiceNumber@14523f8]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2019-11-17T05:55:46Z" finished-at="2019-11-17T05:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.TC002_InvoiceNumber@14523f8]" name="stopReport" is-config="true" duration-ms="837" started-at="2019-11-17T05:55:46Z" finished-at="2019-11-17T05:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.leafBot.testcases.TC002_InvoiceNumber -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

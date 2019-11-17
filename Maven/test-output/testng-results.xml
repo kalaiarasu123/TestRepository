@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48128" started-at="2019-11-14T06:38:36Z" finished-at="2019-11-14T06:39:24Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunTest@ac3a89]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="48128" started-at="2019-11-14T06:38:36Z" finished-at="2019-11-14T06:39:24Z">
+      <class name="runner.RunTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunTest@ac3a89]" name="setUpClass" is-config="true" duration-ms="843" started-at="2019-11-14T06:38:36Z" finished-at="2019-11-14T06:38:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunTest@ac3a89]" name="runScenario" duration-ms="46818" started-at="2019-11-14T06:38:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-11-14T06:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC002 Create a new Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leaftaps Lead"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunTest@ac3a89]" name="tearDownClass" is-config="true" duration-ms="16" started-at="2019-11-14T06:39:24Z" finished-at="2019-11-14T06:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
